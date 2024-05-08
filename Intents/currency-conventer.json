@@ -1,0 +1,194 @@
+{
+  "id": "914e8f7d-d0c8-4954-8b83-da70d16bf40e",
+  "name": "currency-conventer",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "unit-currency",
+          "dataType": "@sys.unit-currency",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$unit-currency",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "currency-name",
+          "dataType": "@sys.currency-name",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$currency-name",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Server down. Try again after some time.",
+            "aaj chutti hai kal aana.",
+            "I am facing some issues you patience would be appreciated."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "convert ",
+          "userDefined": false
+        },
+        {
+          "text": "19 yen",
+          "userDefined": false,
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "euros",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        }
+      ],
+      "count": 0,
+      "id": "1a1a04c4-d8d1-409c-a085-7d0eb4ef7a93",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "convert ",
+          "userDefined": false
+        },
+        {
+          "text": "6 inr",
+          "userDefined": false,
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "pounds",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        }
+      ],
+      "count": 1,
+      "id": "5f284088-e8f6-4673-9cea-44a9f9199292",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "convert ",
+          "userDefined": false
+        },
+        {
+          "text": "50 euros",
+          "userDefined": false,
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "usd",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        }
+      ],
+      "count": 0,
+      "id": "48c3c5bf-8298-4fab-965c-c90843209331",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "convert ",
+          "userDefined": false
+        },
+        {
+          "text": "100 inr",
+          "userDefined": false,
+          "alias": "unit-currency",
+          "meta": "@sys.unit-currency"
+        },
+        {
+          "text": " to ",
+          "userDefined": false
+        },
+        {
+          "text": "yen",
+          "userDefined": false,
+          "alias": "currency-name",
+          "meta": "@sys.currency-name"
+        }
+      ],
+      "count": 0,
+      "id": "b21e8695-946a-4ddf-9e2a-af7102cd721b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "convert 10 usd to inr",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1571126-0b1a-4b15-9597-f8f218332a46",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}
